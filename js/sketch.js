@@ -472,7 +472,7 @@ function createStone()
 {
 
  // var stone = createSprite(width+10,height/2+315, 10, 10);
- var stone = createSprite(width/2,height/2, 10, 10);
+ var stone = createSprite(width+30,height/2+200, 10, 10);
   stone.addImage(stoneImage);
   stone.scale=0.5;
   stone.velocityX = -5;
